@@ -1,0 +1,94 @@
+html,
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+body{
+     background-color: #141b19;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+.btn{
+    background:#10B981 ;
+    padding: 0.4rem ;
+    border: none;
+    border-radius: 3px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+    cursor: pointer;
+    margin: 1rem 0 2rem 0;
+   
+}
+.btn img{
+   height: 17px;
+   width: 20px;
+}
+.texts h3,
+.btn{
+    color: #ffffff;
+}
+
+.texts h3{
+    font-size: 40px;
+}
+
+.texts span{
+    color:#4ADF86 ;
+    display: block;
+}
+
+p {
+    color:#d5d4d8c7;
+    margin: 0.2rem 0;
+}
+
+.rule{
+    height: 2px;
+    background:#2d3c4f;
+}
+
+.box-up{
+    width: 700px;
+    margin: 0 auto;
+    background: #1F2937;
+    
+}
+
+.texts{
+    margin-top: 10%;
+    padding: 4rem 2rem 0 2rem;
+
+    
+}
+
+.pass-wrapper{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+
+ }  
+.generated-passwords{
+     padding: 0.5rem 0.6rem;
+     background-color: #273549;
+     margin: 20px 0 20px 2rem;
+     width: 280px;
+     text-align: center;
+     border-radius: 5px;
+     color:#55F991;
+     ;
+
+}
+.generated-passwords img{
+    height: 7px;
+}
+.fa-ellipsis{
+    color: #00000088;
+}
+
